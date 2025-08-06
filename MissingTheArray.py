@@ -1,7 +1,7 @@
 def find_missing_number(arr):
     n = len(arr) + 1  # Total numbers from 1 to n
     expected_sum = 0
-    for i in range(1, n + 1):
+    for i in range(1, n + 1):  # instead of use sum(arr)
         expected_sum += i
 
     actual_sum = 0
